@@ -1,7 +1,13 @@
+import "./App.css"
+
 export const App = () => {
   return (
 <>
-Hello World</>
+<h1>
+Hello World
+
+</h1>
+</>
 
   )
 }
