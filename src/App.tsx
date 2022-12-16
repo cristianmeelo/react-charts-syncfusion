@@ -31,7 +31,7 @@ export const App = () => {
           primaryYAxis={{
             interval: 50,
             minimum: 0,
-            maximum: 299,
+            maximum: 249,
           }}>
           <Inject
             services={[ColumnSeries, Tooltip, AreaSeries, Category, StripLine]}
@@ -42,11 +42,11 @@ export const App = () => {
               xName="x"
               yName="y"
               name="BPM"
-              fill="#4BA7D9"
+              fill="#4ba7d987"
               opacity={0.6}
               type="Area"
               width={4}
-              border={{ width: 4 }}
+              border={{ width: 4, color: "#4BA7D9" }}
             />
           </SeriesCollectionDirective>
         </ChartComponent>
